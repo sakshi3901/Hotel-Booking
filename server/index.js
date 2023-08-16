@@ -23,7 +23,7 @@ app.use("/Uploads", express.static(__dirname + "/Uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://hotel-booking-hdpw.vercel.app",
   })
 );
 
